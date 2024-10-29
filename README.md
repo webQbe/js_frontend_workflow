@@ -36,5 +36,5 @@
 
 ## Implementing SASS
 
-1. Create `src/scss/app.scss` file.
-2. 
+1. Create `src/scss/app.scss` SASS file.
+2. Import the SASS file to `src/app.js`.
