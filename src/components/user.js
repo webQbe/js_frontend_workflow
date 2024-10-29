@@ -17,6 +17,9 @@ const User = async () => {
     const template = `
         <div className="card">
             <img src="${user.picture.large}" />
+            <div class="card-body">
+                <h1>${user.name.first} ${user.name.last}</h1>
+            </div>
         </div>
     `;  
 
