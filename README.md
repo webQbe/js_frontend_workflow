@@ -38,3 +38,10 @@
 
 1. Create `src/scss/app.scss` SASS file.
 2. Import the SASS file to `src/app.js`.
+
+
+## Installing Axios
+
+1. Run `npm i axios`
+2. Create `src/components/user.js` file.
+3. Open `user.js` and import `axios`.
