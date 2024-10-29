@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mademoiselle",
+                "first": "Carmen",
+                "last": "Dupuis"
+            },
+            "location": {
+                "street": {
+                    "number": 6340,
+                    "name": "Avenue de la Libération"
+                },
+                "city": "Soral",
+                "state": "Solothurn",
+                "country": "Switzerland",
+                "postcode": 8760,
+                "coordinates": {
+                    "latitude": "-56.1082",
+                    "longitude": "40.5742"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Brussels, Copenhagen, Madrid, Paris"
+                }
+            },
+            "email": "carmen.dupuis@example.com",
+            "login": {
+                "uuid": "24c7a0db-4e44-490d-9c9c-ee06a6d9d4b3",
+                "username": "silvertiger941",
+                "password": "michaela",
+                "salt": "4rqJdZKX",
+                "md5": "5f349544be37f5be5ae56e8a0cc2a382",
+                "sha1": "c1b0b4b1680ce01a3b77975043af2799e4fad7a7",
+                "sha256": "9f04051c2321f1b54538ab069a788d2429b1771354d5153bc79554a15b9606ac"
+            },
+            "dob": {
+                "date": "1945-07-10T07:20:34.008Z",
+                "age": 79
+            },
+            "registered": {
+                "date": "2010-06-20T02:52:27.308Z",
+                "age": 14
+            },
+            "phone": "078 827 16 45",
+            "cell": "076 224 32 71",
+            "id": {
+                "name": "AVS",
+                "value": "756.9072.8213.01"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/65.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+            },
+            "nat": "CH"
+        }
+    ],
+    "info": {
+        "seed": "dc03ac828382906e",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

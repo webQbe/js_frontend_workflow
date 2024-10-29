@@ -10,9 +10,15 @@ const User = async () => {
 
     // Get First Item / User Object
     const user = res.data.results[0];
+    // Log User Object
     console.log(user);
 
-    const template = `User`;  
+    // Add HTML template
+    const template = `
+        <div className="card">
+            <img src="${user.picture.large}" />
+        </div>
+    `;  
 
     return template;
 
