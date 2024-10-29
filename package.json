@@ -1,0 +1,19 @@
+{
+  "name": "js_frontend_workflow",
+  "version": "1.0.0",
+  "description": "- Using the Parcel app bundler to build a larger app  - Dealing with multiple files, custom components, when no frameworks are used. - Creating a boilerplate for building advanced JS projects. - Using different files, such as `main.js` file, and component files such as: `components/header.js` and `components/user.js` - Including SASS to use SCSS files directly. - Babel compiler is used to deal with modern JS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/runtime-corejs2": "^7.26.0",
+    "sass": "^1.80.4"
+  }
+}
