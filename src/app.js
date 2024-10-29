@@ -1,16 +1,20 @@
 // Importing SASS File
 import './scss/app.scss';
 
-// Importing Function 
+// Importing Functions 
 import Header from './components/header';
+import User from './components/user';
 
-// Main Function
-const app = () => {
+// Main Function 
+// Add async as User() returns a Promise
+const app = async () => {
 
-    // Get HTML from Header &
-    // Set to index.html header placeholder
+    // Get content from Header & User
+    // Add to index.html placeholders
     document.getElementById('header').innerHTML = Header();
 
+    // Add await as User() returns a Promise
+    document.getElementById('user').innerHTML = await User();
 }
 
 // Init app

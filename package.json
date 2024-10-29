@@ -15,5 +15,8 @@
     "@babel/plugin-transform-runtime": "^7.25.9",
     "@babel/runtime-corejs2": "^7.26.0",
     "sass": "^1.80.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
   }
 }
