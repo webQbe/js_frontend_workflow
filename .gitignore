@@ -2,3 +2,5 @@ node_modules/
 development/
 .cache/
 dist/
+.parcel-cache/
+yarn.lock

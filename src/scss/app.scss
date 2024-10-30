@@ -1,5 +1,6 @@
 /* Importing _card.scss */
-@import 'card';
+@use 'card';
+/* Sass has deprecated the @import rule in favor of @use and @forward.  */
 
 
 $primary-color: slateblue;
